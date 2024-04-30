@@ -18,7 +18,9 @@ const App = () => {
         <p>A real time malware detection application</p>
       </div>
       <h2 className="projectsupervisior">
-        Project under supervision of Dr. Bhupendra Singh and Dr. Sonam Maurya.
+        <i>
+          Project under supervision of Dr. Bhupendra Singh and Dr. Sonam Maurya.
+        </i>
       </h2>
       <div className="download">
         <p>Download our application</p>
