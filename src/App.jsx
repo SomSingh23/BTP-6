@@ -1,4 +1,5 @@
 import saveAs from "file-saver";
+import "./App.css";
 
 const App = () => {
   const downloadApplication = () => {
@@ -12,10 +13,28 @@ const App = () => {
 
   return (
     <>
-      <h1>SurakshaScan</h1>
-      <div>
+      <div className="heading">
+        <h1>SurakshaScan</h1>
+        <p>A real time malware detection application</p>
+      </div>
+      <h2 className="projectsupervisior">
+        Project under supervision of Dr. Bhupendra Singh and Dr. Sonam Maurya.
+      </h2>
+      <div className="download">
         <p>Download our application</p>
-        <button onClick={downloadApplication}>Download Application</button>
+        <button className="downloadbutton" onClick={downloadApplication}>
+          Download
+        </button>
+      </div>
+      <div className="teamdetails">
+        <h2 className="teamheading">Team Details</h2>
+        <ol className="listofteammember">
+          <li>Shashank Garg </li>
+          <li>Som Singh Lodhi</li>
+          <li>Sourish Mittal</li>
+          <li>Steve Raphael Pulikottil</li>
+          <li>Vatsal Tiwari</li>
+        </ol>
       </div>
     </>
   );
