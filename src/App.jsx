@@ -38,6 +38,12 @@ const App = () => {
           <li>Vatsal Tiwari</li>
         </ol>
       </div>
+      <footer className="footer">
+        <p>
+          &copy; {new Date().getFullYear()} BTP Project SurakshaScan. All rights
+          reserved.
+        </p>
+      </footer>
     </>
   );
 };

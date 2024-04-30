@@ -1,5 +1,5 @@
 .heading {
-  margin-top: 80px;
+  margin-top: 50px;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
@@ -24,9 +24,10 @@ p {
   color: #666;
 }
 
-.projectsupervisor {
+.projectsupervisior {
   margin: 10px 0;
-  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
   color: #333;
 }
 
@@ -83,4 +84,13 @@ p {
 
 .listofteammember li:hover {
   color: #333;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer p {
+  font-size: 1rem;
 }
