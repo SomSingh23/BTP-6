@@ -14,8 +14,12 @@ const App = () => {
   return (
     <>
       <div className="heading">
-        <h1>SurakshaScan</h1>
-        <p>A real time malware detection application</p>
+        <h1>🛡️ SurakshaScan 🛡️</h1>
+        <p>
+          {" "}
+          Inspired by pe-sieve and hollows hunter with a few minor
+          modifications.
+        </p>
       </div>
       <h2 className="projectsupervisior">
         <i>

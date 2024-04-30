@@ -6,7 +6,7 @@
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.151);
-  transition: all 1s;
+  transition: all 0.7s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .heading:hover {
@@ -25,14 +25,14 @@ p {
 }
 
 .projectsupervisior {
-  margin: 10px 0;
+  margin: 35px 0;
   font-weight: bold;
   font-size: 18px;
   color: #333;
 }
 
 .download {
-  margin: 20px 0;
+  margin: 18px 0;
 }
 
 .downloadbutton {
@@ -51,7 +51,7 @@ p {
 }
 
 .teamdetails {
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .teamheading {
@@ -71,7 +71,7 @@ p {
   color: #666;
   transition: all 1s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  animation: team-fade-in 0.5s ease-in-out;
+  transition: all 0.5s;
 }
 .listofteammember li:hover {
   color: #666;
@@ -99,4 +99,29 @@ p {
 
 .footer p {
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+  .projectsupervisior {
+    padding: 18px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .download {
+    text-align: center;
+  }
+  .teamheading {
+    text-align: center;
+  }
+  .listofteammember li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
