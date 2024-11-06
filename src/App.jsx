@@ -22,9 +22,7 @@ const App = () => {
         </p>
       </div>
       <h2 className="projectsupervisior">
-        <i>
-          Project under supervision of Dr. Bhupendra Singh and Dr. Sonam Maurya.
-        </i>
+        <i>Project under supervision of Dr. Bhupendra Singh.</i>
       </h2>
       <div className="download">
         <p>Download our application</p>
