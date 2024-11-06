@@ -7,7 +7,7 @@ const App = () => {
     fetch("/btp-7-application.zip")
       .then((response) => response.blob())
       .then((blob) => {
-        saveAs(blob, "btp-6-application.zip"); // Set desired download filename here
+        saveAs(blob, "btp-7-application.zip"); // Set desired download filename here
       });
   };
 
