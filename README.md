@@ -10,10 +10,11 @@ We provide a website where you can download **SurakshaScan**, a malware detectio
 
 ## Getting Started
 
-1. Visit our website to **download SurakshaScan**.
-2. Run the installer and follow the instructions to set up.
-3. Launch SurakshaScan and start scanning your system for threats.
+1. Visit our website to **[download SurakshaScan](https://som-and-team-btp-7.vercel.app/)**.
+2. Launch SurakshaScan and start scanning your system for threats.
 
 ## Requirements
 
 - **OS**: Windows 10 or higher
+
+
