@@ -4,7 +4,7 @@ import "./App.css";
 const App = () => {
   const downloadApplication = () => {
     // Replace 'your_application.zip' with the actual filename of your zip
-    fetch("/btp-6-application.zip")
+    fetch("/btp-7-application.zip")
       .then((response) => response.blob())
       .then((blob) => {
         saveAs(blob, "btp-6-application.zip"); // Set desired download filename here
